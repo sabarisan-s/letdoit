@@ -3,7 +3,7 @@ import "./App.css";
 import Todo from "./components/Todo";
 import { Toaster } from "react-hot-toast";
 import "bootstrap/dist/css/bootstrap.min.css";
-axios.defaults.baseURL = "http://127.0.0.1:8000";
+axios.defaults.baseURL = "https://letdoit.onrender.com/";
 
 function App() {
     return (
